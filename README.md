@@ -21,3 +21,18 @@ This project is a simple authentication system built with **React** and **Vite**
 
 ## 📁 Folder Structure
 
+```plaintext
+.
+├── public/
+│   ├── index.html           # Entry point for the application
+├── src/
+│   ├── assets/              # Images, icons, and other assets
+│   ├── components/          # Reusable components like buttons, forms, etc.
+│   ├── pages/               # Pages like login, dashboard, etc.
+│   ├── App.jsx              # Main component that defines the routes and layout
+│   ├── main.jsx             # Entry point for React
+│   ├── utils/               # Utility functions like API calls, authentication helpers
+├── tailwind.config.js       # Tailwind CSS configuration file
+├── vite.config.js           # Vite configuration file
+├── package.json             # Project dependencies and scripts
+└── README.md                # Project documentation (this file)
